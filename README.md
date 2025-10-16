@@ -1,13 +1,13 @@
 # AGZNKO Website
 
 ## 📖 Overview
-AGZNKO3 is a multi-page static website built using **HTML** , **Bootstrap** and **CSS**.  
+AGZNKO is a multi-page static website built using **HTML** , **Bootstrap** and **CSS**.  
 It contains several sections such as Home, About, Services, Projects, Blogs, and Contact.  
 The website is designed to showcase personal or business information with a clean, responsive layout.
 
 ## 🏗️ Project Structure
 ```
-agznko3/
+agznko/
 │
 ├── home.html
 ├── about.html
