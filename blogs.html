@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Business Growth Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="blogstyle.css">
+
+                <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+   <!-- Navbar Section Start Here -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar" data-aos="fade-down" data-aos-duration="800">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="home.html">
+            <img src="images/AGZNKO.png" alt="AGZNKO Logo" height="45">
+        </a>
+
+        <!-- Mobile Toggle Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+                <li class="nav-item fw-bold"><a href="home.html" class="nav-link fw-bold">Home</a></li>
+                <li class="nav-item fw-bold"><a href="about.html" class="nav-link fw-bold">About</a></li>
+                <li class="nav-item fw-bold"><a href="service.html" class="nav-link fw-bold">Services</a></li>
+                <li class="nav-item fw-bold"><a href="project.html" class="nav-link fw-bold">Projects</a></li>
+                <li class="nav-item fw-bold"><a href="blogs.html" class="nav-link fw-bold active">Blog</a></li>
+                <li class="nav-item fw-bold"><a href="contact.html" class="nav-link fw-bold">Contact</a></li>
+            </ul>
+
+            <!-- Button -->
+            <div class="nav-actions">
+                <!-- Search Button -->
+                <button class="search-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+
+                <!-- Get In Touch Button -->
+                <button class="cta-btn">Get In Touch</button>
+
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+
+
+    <!-- Hero Section -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="blog-title">Our <span style="color: var(--primary-yellow);">Blog</span></h1>
+                    <p class="blog-subtitle">Stay updated with the latest insights, trends, and strategies in business growth, digital transformation, and industry news. Our expert articles provide in-depth analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Blog Section -->
+    <section class="blog-section">
+        <div class="container">
+            <!-- Search & Filter -->
+            <div class="search-filter" data-aos="fade-right">
+                <div class="search-box">
+                    <input type="text" placeholder="Search articles...">
+                </div>
+                <div class="category-filter">
+                    <button class="filter-tag active">All</button>
+                    <button class="filter-tag">Technology</button>
+                    <button class="filter-tag">Marketing</button>
+                    <button class="filter-tag">Business</button>
+                    <button class="filter-tag">Strategy</button>
+                </div>
+            </div>
+
+            <!-- Featured Blog -->
+            <div class="featured-blog" data-aos="fade-right">
+                <div class="featured-blog-card">
+                    <div class="featured-image " style="height: 70vh;">
+                        <img src="/agznko3/images/bloghero.jpg" alt="Featured Blog">
+                    </div>
+                    <div class="featured-content">
+                        <span class="featured-badge">FEATURED</span>
+                        <h2>The Future of Digital Transformation in 2025</h2>
+                        <p>Explore the transformative trends shaping the digital landscape this year. From AI integration to cloud-native architectures, discover how businesses are revolutionizing their operations.</p>
+                        <div class="blog-meta">
+                            <div class="blog-meta-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Oct 8, 2025</span>
+                            </div>
+                            <div class="blog-meta-item">
+                                <i class="fas fa-user"></i>
+                                <span>By Sarah Johnson</span>
+                            </div>
+                            <div class="blog-meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>8 min read</span>
+                            </div>
+                        </div>
+                        <a href="#" class="read-more-btn">Read Full Article</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Title -->
+            <h2 class="section-title" style="margin-top: 4rem; margin-bottom: 2rem;" data-aos="fade-right">Latest Articles</h2>
+
+            <!-- Blog Grid -->
+            <div class="blog-grid">
+                <!-- Blog 1 -->
+                <div class="blog-card" data-aos="fade-right" data-aos-delay="0">
+                    <div class="blog-card-image">
+                        <img src="images/blogs1.jpg" alt="Blog 1">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">Technology</span>
+                        <h3 class="blog-card-title">AI-Powered Analytics for Better Decisions</h3>
+                        <p class="blog-card-description">Learn how artificial intelligence is revolutionizing data analytics and helping businesses make informed decisions faster than ever before.</p>
+                        <div class="blog-card-footer">
+                            <div class="blog-author">
+                                <div class="author-avatar">J</div>
+                                <span>John Smith</span>
+                            </div>
+                            <span>5 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 2 -->
+                <div class="blog-card" data-aos="fade-right" data-aos-delay="100">
+                    <div class="blog-card-image">
+                        <img src="images/blogs2.jpg" alt="Blog 2">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">Marketing</span>
+                        <h3 class="blog-card-title">Content Marketing Strategies That Work</h3>
+                        <p class="blog-card-description">Discover proven content marketing techniques that drive engagement, build brand loyalty, and convert visitors into loyal customers.</p>
+                        <div class="blog-card-footer">
+                            <div class="blog-author">
+                                <div class="author-avatar">E</div>
+                                <span>Emma Wilson</span>
+                            </div>
+                            <span>6 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 3 -->
+                <div class="blog-card" data-aos="fade-right" data-aos-delay="200">
+                    <div class="blog-card-image">
+                        <img src="images/blogs3.jpg" alt="Blog 3">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">Business</span>
+                        <h3 class="blog-card-title">Scaling Your Startup Successfully</h3>
+                        <p class="blog-card-description">A comprehensive guide to scaling your startup without losing your company culture and values. Learn from successful entrepreneurs.</p>
+                        <div class="blog-card-footer">
+                            <div class="blog-author">
+                                <div class="author-avatar">M</div>
+                                <span>Michael Chen</span>
+                            </div>
+                            <span>7 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 4 -->
+                <div class="blog-card" data-aos="fade-right" data-aos-delay="300">
+                    <div class="blog-card-image">
+                        <img src="images/blogs4.jpg" alt="Blog 4">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">Strategy</span>
+                        <h3 class="blog-card-title">Building a Winning Business Strategy</h3>
+                        <p class="blog-card-description">Master the fundamentals of strategic planning and learn how to create a roadmap that leads your business to sustainable growth.</p>
+                        <div class="blog-card-footer">
+                            <div class="blog-author">
+                                <div class="author-avatar">L</div>
+                                <span>Lisa Anderson</span>
+                            </div>
+                            <span>9 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 5 -->
+                <div class="blog-card" data-aos="fade-right" data-aos-delay="400">
+                    <div class="blog-card-image">
+                        <img src="images/blogs5.jpg" alt="Blog 5">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">Technology</span>
+                        <h3 class="blog-card-title">Cloud Migration: A Step-by-Step Guide</h3>
+                        <p class="blog-card-description">Everything you need to know about migrating your infrastructure to the cloud. Minimize risks and maximize benefits.</p>
+                        <div class="blog-card-footer">
+                            <div class="blog-author">
+                                <div class="author-avatar">D</div>
+                                <span>David Taylor</span>
+                            </div>
+                            <span>10 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 6 -->
+                <div class="blog-card" data-aos="fade-right" data-aos-delay="500">
+                    <div class="blog-card-image">
+                        <img src="images/blogs6.jpg" alt="Blog 6">
+                    </div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">Marketing</span>
+                        <h3 class="blog-card-title">Social Media Marketing in the Modern Era</h3>
+                        <p class="blog-card-description">Navigate the ever-changing world of social media and learn strategies to build authentic connections with your audience.</p>
+                        <div class="blog-card-footer">
+                            <div class="blog-author">
+                                <div class="author-avatar">S</div>
+                                <span>Sofia Martinez</span>
+                            </div>
+                            <span>6 min</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination-section" data-aos="fade-right">
+                <button class="pagination-btn active">1</button>
+                <button class="pagination-btn">2</button>
+                <button class="pagination-btn">3</button>
+                <button class="pagination-btn">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="blog-cta">
+        <div class="container">
+            <h2 class="cta-title" data-aos="fade-right">Stay Updated with Our Latest Insights</h2>
+            <p class="cta-subtitle" data-aos="fade-right" data-aos-delay="100">Subscribe to our newsletter and receive the latest articles, tips, and industry news directly to your inbox.</p>
+            <div class="subscribe-box" data-aos="fade-right" data-aos-delay="200">
+                <input type="email" placeholder="Enter your email">
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Footer Section Start Here -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- About / Logo -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="footer-about">
+                    <img src="images/AGZNKO.png" alt="Logo" class="mb-3" style="width:150px;">
+                    <p>We craft innovative and creative solutions for modern brands. Our dedication ensures your
+                        success in every project.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <h5>Quick Links</h5>
+                <ul class="footer-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <h5>Services</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Packaging Design</a></li>
+                    <li><a href="#">UX/UI Design</a></li>
+                    <li><a href="#">Print Design</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <h5>Contact Us</h5>
+                <p><i class="fa-solid fa-location-dot"></i> 123 Street, Lahore, Pakistan</p>
+                <p><i class="fa-solid fa-phone"></i> +92 300 1234567</p>
+                <p><i class="fa-solid fa-envelope"></i> info@agznko.com</p>
+            </div>
+
+        </div>
+
+        <hr class="footer-divider" data-aos="fade" data-aos-delay="500">
+
+        <div class="row">
+            <div class="col text-center" data-aos="fade-up" data-aos-delay="600">
+                <p class="mb-0">&copy; 2025 AGZNKO. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End here -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // اینیمیشن کی رفتار
+    once: true      // صرف ایک بار اینیمیشن
+  });
+</script>
+
+
+</body>
+</html>
